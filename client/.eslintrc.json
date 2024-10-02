@@ -1,0 +1,22 @@
+{
+    "env": {
+      "browser": true,
+      "es2021": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ],
+    "plugins": [
+      "react"
+    ],
+    "settings": {
+      "react": {
+        "version": "detect" // Automatically detect the React version
+      }
+    },
+    "rules": {
+      "react/react-in-jsx-scope": "off" // Not needed for React 17+
+    }
+  }
+  
